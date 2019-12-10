@@ -57,4 +57,4 @@ cv2.destroyAllWindows()
 - Testing Result
 - Result
 ------------------------
-<img src="https://raw.githubusercontent.com/nurchulis/Blood-Iron-deficiency-Detection-With-OpenCV/Result_testing.png" width="400" height="790">
+<img src="https://raw.githubusercontent.com/nurchulis/Blood-Iron-deficiency-Detection-With-OpenCV/master/Result_testing.png" width="400" height="790">
