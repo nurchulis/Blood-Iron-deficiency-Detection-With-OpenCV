@@ -53,3 +53,8 @@ print "Jumlah Total Sel Adalah =",nilai_c+nilai_e-2
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
+- Testing Result
+- Result
+------------------------
+<img src="https://raw.githubusercontent.com/nurchulis/Blood-Iron-deficiency-Detection-With-OpenCV/Result_testing.png" width="400" height="790">
