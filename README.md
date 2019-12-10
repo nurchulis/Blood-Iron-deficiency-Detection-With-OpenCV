@@ -8,7 +8,7 @@ How to detect iron blood deficiency with python
   dilation = cv2.dilate(img,kernel,iterations = 1)
 - Filling Holes Objek
   
-  
+```
 import cv2
 import numpy as np
 
@@ -52,3 +52,4 @@ print "Jumlah Shell berbentuk Normal adalah =",nilai_c-1
 print "Jumlah Total Sel Adalah =",nilai_c+nilai_e-2
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+```
