@@ -2,10 +2,10 @@ import cv2
 import numpy as np
 
 ##Membuat Ke GrayScale
-img = cv2.imread('Data/Defisiensi/20(Defisiensi).jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('Data/Defisiensi/19(Defisiensi).jpg', cv2.IMREAD_GRAYSCALE)
 
 ##Melakukan Dilasi
-kernel = np.ones((1,1),np.uint8)
+kernel = np.ones((2,2),np.uint8)
 dilation = cv2.dilate(img,kernel,iterations = 1)
 erosion = cv2.erode(dilation,kernel,iterations = 1)
 
